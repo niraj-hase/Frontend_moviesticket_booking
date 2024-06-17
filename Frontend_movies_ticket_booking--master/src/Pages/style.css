@@ -1,0 +1,10 @@
+.component-container {
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+}
+
+.component-container div :first-child() {
+  width: 400px;
+  height: auto;
+}
